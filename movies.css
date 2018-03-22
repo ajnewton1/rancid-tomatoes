@@ -1,0 +1,151 @@
+/* 
+    Aaron Newton
+    INFSCI1058
+    A movie critic website.
+    This is my css
+*/
+
+body {
+	padding: 0px;
+	background-image: url(images/background.png);
+	background-repeat: repeat;
+}
+
+body, .right {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body, .publisher, .bottom > div {
+	font-size: 8pt;
+}
+
+body, #number {
+	margin: 0px;
+}
+
+#title {
+    background: url(images/bannerbackground.png);
+    height: 50px;
+    background-repeat: repeat-x;
+    width: 100%
+}
+
+#title, h1, #number {
+	text-align: center;
+}
+
+h1 {
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+#body {
+    border-style: solid;
+    border-color: gray;
+    border-width: 4px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#description {
+	width: 550px;
+}
+
+#top {
+    background-image: url(images/rottenbackground.png);
+    background-repeat: repeat-x;
+    height: 83px;
+    font-size: 48pt;
+    color: red;
+    font-weight: bold
+}
+
+#top > img, #link {
+	vertical-align: bottom;
+}
+
+#review {
+	padding-left: 2%;
+}
+
+.publisher {
+    background-color: #E1D697;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    padding: 8px
+}
+
+.publisher, h1 {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.quote {
+	margin-bottom: 20pt;
+}
+
+
+span {
+	font-style: italic;
+}
+
+p, #description, #body {
+	overflow: hidden;
+}
+
+p img, #second, #review, #description {
+	float: left;
+}
+
+#second, #review {
+	width: 47%;
+	padding-right: 2%;
+}
+.right {
+	float: right;
+	width: 250px;
+	padding: 0;
+}
+
+
+div > .bottom {
+	padding: 0pt 10pt;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-bottom: 10pt;
+}
+
+p > img {
+	padding-right: 5px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+#number {
+	clear: both;
+	padding: 5px;
+}
+
+#link {
+	text-align: right;
+}
+
+#number, .right {
+    background-color: #A2B964;
+    font-family: Arial;
+    font-size: 8pt;
+}
+
+#reviewTotal {
+    font-size: 8pt;
+    color: white;
+}
